@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrieta Ortega Ingeniería de Proyectos | Carpintería en aluminio, acero y vidrio</title>
+    <meta name="description" content="Fabricamos puertas, ventanas, cerramientos y ventanas proyectantes en aluminio, acero y vidrio.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- 1. ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+    <header class="encabezado">
+        <div class="contenedor encabezado-interno">
+
+            <a href="#inicio" class="logo" aria-label="Arrieta Ortega Ingeniería de Proyectos, ir al inicio">
+                <img src="img/logo.png" alt="Logo de Arrieta Ortega Ingeniería de Proyectos">
+            </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-boton" aria-label="Abrir o cerrar el menú">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="menu" aria-label="Menú principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#productos">Productos</a>
+                <a href="#promociones">Promociones</a>
+                <a href="#calculadora">Calculadora</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <a href="#calculadora" class="boton boton-cotizar">Cotizar</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- 2. PORTADA PRINCIPAL -->
+        <section id="inicio" class="portada">
+            <div class="contenedor portada-interno">
+                <div class="portada-texto">
+                    <h1>Ventanas, puertas y cerramientos hechos a la medida de tu obra</h1>
+                    <p>Fabricamos carpintería arquitectónica en aluminio, acero y vidrio, con la precisión de una empresa de ingeniería de proyectos.</p>
+                    <div class="portada-botones">
+                        <a href="#productos" class="boton">Ver productos</a>
+                        <a href="#calculadora" class="boton boton-claro">Calcular mi pedido</a>
+                    </div>
+                </div>
+                <div class="portada-imagen">
+                    <img src="img/hero.svg" alt="Fachada de edificio con ventanas de aluminio y vidrio">
+                </div>
+            </div>
+            <ul class="contenedor hero-materiales">
+                <li>Aluminio</li>
+                <li>Acero</li>
+                <li>Vidrio</li>
+                <li>Ingeniería</li>
+            </ul>
+        </section>
+
+        <!-- 3. SOBRE NOSOTROS -->
+        <section id="nosotros" class="seccion sobre-nosotros">
+            <div class="contenedor nosotros-grid">
+
+                <div class="nosotros-imagenes">
+                    <img src="img/perfil.svg" alt="Corte de un perfil de aluminio" class="nosotros-img-principal">
+                    <img src="img/cerramiento.svg" alt="Cerramiento de vidrio con perfilería de aluminio" class="nosotros-img-secundaria">
+                </div>
+
+                <div class="nosotros-contenido">
+                    <h2>Carpintería arquitectónica con ingeniería detrás</h2>
+                    <p>
+                        Arrieta Ortega Ingeniería de Proyectos surge para dar vida a las ideas
+                        de nuestros clientes mediante soluciones que combinan diseño, seguridad y durabilidad.
+                        utilizamos materiales que no se oxidan, que requieren el mínimo mantenimiento y
+                        mantienen su apariencia con el paso de los años, asegurando inversiones confiables y de alto valor estético.
+                    </p>
+                    <p>
+                        Nuestro fuerte es la perfilería de aluminio y acero, que complementamos con
+                        vidrio, vidrio templado, espejos y accesorios. Cada pieza se mide, se diseña
+                        y se fabrica para el espacio donde va a quedar.
+                    </p>
+                    <ul class="diferenciales">
+                        <li><strong>Fabricación propia.</strong> Controlamos el trabajo de principio a fin.</li>
+                        <li><strong>Visión de proyecto.</strong> Pensamos en la obra completa, no solo en una ventana.</li>
+                        <li><strong>Variedad de materiales.</strong> Aluminio, acero, vidrio templado y espejo en un solo proveedor.</li>
+                    </ul>
+                    <a href="#productos" class="boton">Conoce nuestros productos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- NUESTRAS LÍNEAS -->
+        <section id="lineas" class="seccion lineas">
+            <div class="contenedor">
+                <div class="seccion-encabezado">
+                    <h2>Nuestras líneas</h2>
+                    <p>Soluciones para quien habita la obra y para quien la construye.</p>
+                </div>
+
+                <div class="lineas-grid">
+                    <article class="linea">
+                        <img src="img/puerta-ventana.svg" alt="Puerta ventana para vivienda">
+                        <div class="linea-texto">
+                            <h3>Residencial</h3>
+                            <p>Ventanas, puertas ventana y cerramientos para casas y apartamentos.</p>
+                            <a href="#productos" class="boton boton-claro-oscuro boton-pequeno">Ver productos</a>
+                        </div>
+                    </article>
+
+                    <article class="linea">
+                        <img src="img/cerramiento.svg" alt="Cerramiento de gran formato">
+                        <div class="linea-texto">
+                            <h3>Institucional y comercial</h3>
+                            <p>Cerramientos y accesos de gran formato para oficinas, colegios y locales.</p>
+                            <a href="#productos" class="boton boton-claro-oscuro boton-pequeno">Ver productos</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section id="beneficios" class="seccion beneficios">
+            <div class="contenedor">
+                <div class="seccion-encabezado">
+                    <h2>Lo que gana tu espacio</h2>
+                    <p>El vidrio y la perfilería correctos cambian cómo se vive un lugar.</p>
+                </div>
+
+                <div class="beneficios-grid">
+                    <div class="beneficio"><h3>Confort visual</h3><p>Más luz natural en el interior, con vidrios que controlan la radiación UV.</p></div>
+                    <div class="beneficio"><h3>Confort térmico</h3><p>Vidrios que ayudan a mantener una temperatura interior agradable y estable.</p></div>
+                    <div class="beneficio"><h3>Confort acústico</h3><p>Vidrios laminados o dobles que reducen el ruido de la calle.</p></div>
+                    <div class="beneficio"><h3>Ingeniería y diseño</h3><p>Cada pieza se calcula y se fabrica para la medida y el uso de tu obra.</p></div>
+                    <div class="beneficio"><h3>Seguridad</h3><p>Vidrio templado y herrajes resistentes en puertas, cerramientos y ventanas.</p></div>
+                    <div class="beneficio"><h3>Ventilación</h3><p>Sistemas como la ventana proyectante renuevan el aire sin abrir del todo.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. CATÁLOGO DE PRODUCTOS -->
+        <section id="productos" class="seccion catalogo">
+            <div class="contenedor">
+                <div class="seccion-encabezado">
+                    <h2>Nuestros productos</h2>
+                    <p>Precios de referencia por metro cuadrado. El valor final depende de las medidas y del tipo de vidrio.</p>
+                </div>
+
+                <div class="catalogo-grid">
+
+                    <article class="tarjeta-producto">
+                        <img src="img/ventana.svg" alt="Ventana corrediza de aluminio con vidrio">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Ventanas</h3>
+                            <p>Corredizas en perfilería de aluminio, con vidrio claro o templado.</p>
+                            <p class="precio">Desde $380.000 <span>por m²</span></p>
+                            <a href="#calculadora" class="boton boton-pequeno" data-producto="ventana">Cotizar ventana</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <img src="img/puerta.svg" alt="Puerta de aluminio con panel de vidrio">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Puertas</h3>
+                            <p>Puertas de aluminio o acero con paneles de vidrio y herrajes resistentes.</p>
+                            <p class="precio">Desde $520.000 <span>por m²</span></p>
+                            <a href="#calculadora" class="boton boton-pequeno" data-producto="puerta">Cotizar puerta</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <img src="img/puerta-ventana.svg" alt="Puerta ventana corrediza de piso a techo">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Puertas ventana</h3>
+                            <p>Salida a balcón o terraza con grandes paños de vidrio y mucha luz natural.</p>
+                            <p class="precio">Desde $450.000 <span>por m²</span></p>
+                            <a href="#calculadora" class="boton boton-pequeno" data-producto="puerta-ventana">Cotizar puerta ventana</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <img src="img/cerramiento.svg" alt="Cerramiento de vidrio con perfilería de aluminio">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Cerramientos</h3>
+                            <p>Cerramientos para balcones, terrazas y fachadas, en aluminio y vidrio templado.</p>
+                            <p class="precio">Desde $420.000 <span>por m²</span></p>
+                            <a href="#calculadora" class="boton boton-pequeno" data-producto="cerramiento">Cotizar cerramiento</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-producto">
+                        <img src="img/proyectante.svg" alt="Ventana proyectante abierta hacia afuera">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Ventanas proyectantes</h3>
+                            <p>Se abren hacia afuera desde la parte inferior: ventilan incluso con lluvia.</p>
+                            <p class="precio">Desde $480.000 <span>por m²</span></p>
+                            <a href="#calculadora" class="boton boton-pequeno" data-producto="proyectante">Cotizar ventana proyectante</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PROMOCIONES -->
+        <section id="promociones" class="seccion promociones">
+            <div class="contenedor">
+                <div class="promociones-encabezado">
+                    <span class="etiqueta">Ofertas especiales</span>
+                    <h2>Promociones para tu obra</h2>
+                    <p>Aprovecha estos beneficios en tu próximo pedido.</p>
+                </div>
+
+                <div class="contenedor-promociones">
+
+                    <article class="tarjeta-promocion">
+                        <img src="img/cerramiento.svg" alt="Cerramiento en promoción">
+                        <div class="contenido-promocion">
+                            <span class="descuento">10% OFF</span>
+                            <h3>Cerramientos para terraza y balcón</h3>
+                            <p>Usa el código <strong>ALUMINIO10</strong> en la calculadora y recibe 10% de descuento en tu cotización.</p>
+                            <a href="#calculadora" class="boton boton-promo" data-producto="cerramiento" data-codigo="ALUMINIO10">Aplicar descuento</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta-promocion">
+                        <img src="img/proyectante.svg" alt="Ventana proyectante destacada">
+                        <div class="contenido-promocion">
+                            <span class="descuento descuento-novedad">NOVEDAD</span>
+                            <h3>Ventana proyectante</h3>
+                            <p>Ventilación segura y sin goteras. Pide la cotización de la medida que necesitas.</p>
+                            <a href="#calculadora" class="boton boton-promo" data-producto="proyectante">Descubrir</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CALCULADORA -->
+        <section id="calculadora" class="seccion seccion-calculadora">
+            <div class="contenedor">
+                <div class="seccion-encabezado">
+                    <h2>Calcula el valor de tu pedido</h2>
+                    <p>Elige el producto, escribe las medidas y obtén un valor estimado al instante.</p>
+                </div>
+
+                <div class="calculadora-contenedor">
+
+                    <div class="calculadora-formulario">
+                        <h3>Información del pedido</h3>
+
+                        <label for="producto">Producto</label>
+                        <select id="producto">
+                            <option value="">Selecciona una opción</option>
+                            <option value="380000" data-clave="ventana">Ventana corrediza</option>
+                            <option value="520000" data-clave="puerta">Puerta</option>
+                            <option value="450000" data-clave="puerta-ventana">Puerta ventana</option>
+                            <option value="420000" data-clave="cerramiento">Cerramiento</option>
+                            <option value="480000" data-clave="proyectante">Ventana proyectante</option>
+                        </select>
+
+                        <div class="fila-medidas">
+                            <div>
+                                <label for="ancho">Ancho (m)</label>
+                                <input type="number" id="ancho" placeholder="Ej: 1.5" min="0.3" step="0.05">
+                            </div>
+                            <div>
+                                <label for="alto">Alto (m)</label>
+                                <input type="number" id="alto" placeholder="Ej: 1.2" min="0.3" step="0.05">
+                            </div>
+                        </div>
+
+                        <label for="vidrio">Tipo de vidrio</label>
+                        <select id="vidrio">
+                            <option value="1">Vidrio claro</option>
+                            <option value="1.25">Vidrio templado (+25%)</option>
+                        </select>
+
+                        <label for="cantidad">Cantidad</label>
+                        <input type="number" id="cantidad" placeholder="Ingresa la cantidad" min="1" value="1">
+
+                        <label for="descuento">Código de descuento</label>
+                        <input type="text" id="descuento" placeholder="Si tienes un código, escríbelo">
+
+                        <button type="button" class="boton boton-calcular" id="boton-calcular">Calcular pedido</button>
+                    </div>
+
+                    <div class="resultado-calculadora" aria-live="polite">
+                        <h3>Resumen de tu pedido</h3>
+
+                        <p>Producto seleccionado:</p>
+                        <strong id="res-producto">Esperando información...</strong>
+
+                        <p>Área total:</p>
+                        <strong id="res-area">0 m²</strong>
+
+                        <hr>
+
+                        <p>Valor total:</p>
+                        <span class="valor-total" id="res-total">$0</span>
+
+                        <p class="mensaje-calculadora" id="res-mensaje">Aquí aparecerá el resultado de tu cotización.</p>
+                        <a href="#contacto" class="boton boton-claro boton-pequeno">Pedir cotización formal</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOLICITA TU COTIZACIÓN -->
+        <section class="franja-cotizacion">
+            <div class="contenedor franja-interno">
+                <div>
+                    <h2>Solicita tu cotización</h2>
+                    <p>Cuéntanos qué necesitas y te ayudamos a construir tu proyecto.</p>
+                </div>
+                <a href="https://wa.me/573166563446?text=Hola%2C%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" class="boton boton-ambar" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+            </div>
+        </section>
+
+        <!-- 7. CONTACTO -->
+        <section id="contacto" class="seccion seccion-contacto">
+            <div class="contenedor">
+                <div class="seccion-encabezado">
+                    <h2>¡Hablemos de tu proyecto!</h2>
+                    <p>¿Tienes alguna pregunta? Nos encantaría atenderte.</p>
+                </div>
+
+                <div class="contacto-contenedor">
+
+                    <!-- Información de contacto (cambia estos datos por los reales) -->
+                    <div class="contacto-informacion">
+                        <h3>Información de contacto</h3>
+
+                        <div class="dato-contacto">
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/573166563446?text=Hola%2C%20quiero%20cotizar%20un%20producto" target="_blank" rel="noopener">316 656 3446</a></p>
+                        </div>
+
+                        <div class="dato-contacto">
+                            <h4>Correo electrónico</h4>
+                            <p><a href="mailto:contacto@arrietaortega.com">contacto@arrietaortega.com</a></p>
+                        </div>
+
+                        <div class="dato-contacto">
+                            <h4>Ubicación</h4>
+                            <p>Barranquilla, Colombia</p>
+                        </div>
+
+                        <div class="dato-contacto">
+                            <h4>Horario de atención</h4>
+                            <p>Lunes a sábado: 8:00 a. m. - 6:00 p. m.</p>
+                        </div>
+
+                        <div class="dato-contacto">
+                            <h4>Redes sociales</h4>
+                            <p class="redes">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+                                <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de contacto -->
+                    <div class="contacto-formulario">
+                        <h3>Envíanos un mensaje</h3>
+
+                        <form id="form-contacto">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+                            <label for="correo">Correo electrónico</label>
+                            <input type="email" id="correo" placeholder="Escribe tu correo" required>
+
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+
+                            <button type="submit" class="boton boton-contacto">Enviar por WhatsApp</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 8. PIE DE PÁGINA -->
+    <footer class="pie">
+        <div class="contenedor pie-columnas">
+            <div>
+                <p class="pie-nombre">Arrieta Ortega Ingeniería de Proyectos</p>
+                <p>Carpintería arquitectónica en aluminio, acero y vidrio.</p>
+            </div>
+            <div>
+                <h4>Sede principal</h4>
+                <p>Barranquilla, Colombia</p>
+                <p>Lunes a sábado: 8:00 a. m. - 6:00 p. m.</p>
+            </div>
+            <div>
+                <h4>Contáctenos</h4>
+                <p><a href="https://wa.me/573166563445" target="_blank" rel="noopener">316 656 3446</a></p>
+                <p><a href="mailto:contacto@arrietaortega.com">contacto@arrietaortega.com</a></p>
+            </div>
+            <div>
+                <h4>Síguenos</h4>
+                <p class="pie-redes">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://wa.me/573166563445" target="_blank" rel="noopener">WhatsApp</a>
+                </p>
+            </div>
+        </div>
+        <p class="contenedor pie-derechos">&copy; 2026 Arrieta Ortega Ingeniería de Proyectos. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/573166563445?text=Hola%2C%20deseo%20m%C3%A1s%20informaci%C3%B3n" class="whatsapp-flotante" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.
+
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
